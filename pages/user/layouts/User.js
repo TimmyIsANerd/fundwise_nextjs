@@ -3,13 +3,13 @@ import { useRouter } from "next/router";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
-import AdminNavbar from "components/Navbars/AdminNavbar.js";
-import AdminFooter from "components/Footers/AdminFooter.js";
-import Sidebar from "components/Sidebar/Sidebar.js";
+import AdminNavbar from "../components/Navbars/UserNavbar.js";
+import AdminFooter from "../components/Footers/UserFooter.js";
+import Sidebar from "../components/Sidebar/Sidebar.js";
 
 import routes from "routes.js";
 
-function Admin(props) {
+function User(props) {
   // used for checking current route
   const router = useRouter();
   let mainContentRef = React.createRef();
@@ -48,4 +48,4 @@ function Admin(props) {
   );
 }
 
-export default Admin;
+export default User;

@@ -12,9 +12,9 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 // layout for this page
-import Admin from "layouts/Admin.js";
+import User from "../layouts/User.js";
 // core components
-import Header from "components/Headers/Header.js";
+import Header from "../components/Headers/Header.js";
 
 const Icons = () => {
   const [copiedText, setCopiedText] = useState();
@@ -2768,6 +2768,6 @@ const Icons = () => {
   );
 };
 
-Icons.layout = Admin;
+Icons.layout = User;
 
 export default Icons;

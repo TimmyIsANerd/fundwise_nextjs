@@ -3,9 +3,9 @@ import React from "react";
 // reactstrap components
 import { Card, Container, Row } from "reactstrap";
 // layout for this page
-import Admin from "layouts/Admin.js";
+import Admin from "../layouts/Admin.js";
 // core components
-import Header from "components/Headers/Header.js";
+import Header from "../components/Headers/Header.js";
 const MapWrapper = () => {
   const mapRef = React.useRef(null);
   React.useEffect(() => {

@@ -3,7 +3,7 @@ import Router from "next/router";
 
 export default function Index() {
   React.useEffect(() => {
-    Router.push("/admin/adminControl/dashboard");
+    Router.push("/test/innertest/hello");
   });
 
   return <div />;

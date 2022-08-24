@@ -23,7 +23,7 @@ function AdminNavbar({ brandText }) {
     <>
       <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
         <Container fluid>
-          <Link href="/admin/dashboard">
+          <Link href="/user/dashboard">
             <a className="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">
               {brandText}
             </a>
@@ -47,7 +47,7 @@ function AdminNavbar({ brandText }) {
                   <span className="avatar avatar-sm rounded-circle">
                     <img
                       alt="..."
-                      src={require("assets/img/theme/team-4-800x800.jpg")}
+                      src={require("../../assets/img/theme/team-4-800x800.jpg")}
                     />
                   </span>
                   <Media className="ml-2 d-none d-lg-block">

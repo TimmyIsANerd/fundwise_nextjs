@@ -14,9 +14,9 @@ import {
   Col,
 } from "reactstrap";
 // layout for this page
-import Admin from "layouts/Admin.js";
+import User from "../layouts/User.js";
 // core components
-import UserHeader from "components/Headers/UserHeader.js";
+import UserHeader from "../components/Headers/UserHeader.js";
 
 function Profile() {
   return (
@@ -34,7 +34,7 @@ function Profile() {
                       <img
                         alt="..."
                         className="rounded-circle"
-                        src={require("assets/img/theme/team-4-800x800.jpg")}
+                        src={require("../assets/img/theme/team-4-800x800.jpg")}
                       />
                     </a>
                   </div>
@@ -312,6 +312,6 @@ function Profile() {
   );
 }
 
-Profile.layout = Admin;
+Profile.layout = User;
 
 export default Profile;

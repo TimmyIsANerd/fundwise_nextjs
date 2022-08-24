@@ -21,16 +21,16 @@ import {
   Col,
 } from "reactstrap";
 // layout for this page
-import Admin from "layouts/Admin.js";
+import Admin from "../layouts/Admin.js";
 // core components
 import {
   chartOptions,
   parseOptions,
   chartExample1,
   chartExample2,
-} from "variables/charts.js";
+} from "../variables/charts.js";
 
-import Header from "components/Headers/Header.js";
+import Header from "../components/Headers/Header.js";
 
 const Dashboard = (props) => {
   const [activeNav, setActiveNav] = React.useState(1);

@@ -21,9 +21,9 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 // layout for this page
-import Admin from "layouts/Admin.js";
+import Admin from "../layouts/Admin.js";
 // core components
-import Header from "components/Headers/Header.js";
+import Header from "../components/Headers/Header.js";
 
 function Tables() {
   return (
@@ -60,7 +60,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/bootstrap.jpg")}
+                            src={require("../assets/img/theme/bootstrap.jpg")}
                           />
                         </a>
                         <Media>
@@ -88,7 +88,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -106,7 +106,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -124,7 +124,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -142,7 +142,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -210,7 +210,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/angular.jpg")}
+                            src={require("../assets/img/theme/angular.jpg")}
                           />
                         </a>
                         <Media>
@@ -238,7 +238,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -256,7 +256,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -274,7 +274,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -292,7 +292,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -360,7 +360,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/sketch.jpg")}
+                            src={require("../assets/img/theme/sketch.jpg")}
                           />
                         </a>
                         <Media>
@@ -386,7 +386,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -404,7 +404,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -422,7 +422,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -440,7 +440,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -508,7 +508,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/react.jpg")}
+                            src={require("../assets/img/theme/react.jpg")}
                           />
                         </a>
                         <Media>
@@ -536,7 +536,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -554,7 +554,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -572,7 +572,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -590,7 +590,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -658,7 +658,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/vue.jpg")}
+                            src={require("../assets/img/theme/vue.jpg")}
                           />
                         </a>
                         <Media>
@@ -686,7 +686,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -704,7 +704,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -722,7 +722,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -740,7 +740,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -887,7 +887,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/bootstrap.jpg")}
+                            src={require("../assets/img/theme/bootstrap.jpg")}
                           />
                         </a>
                         <Media>
@@ -915,7 +915,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -933,7 +933,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -951,7 +951,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -969,7 +969,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1037,7 +1037,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/angular.jpg")}
+                            src={require("../assets/img/theme/angular.jpg")}
                           />
                         </a>
                         <Media>
@@ -1065,7 +1065,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1083,7 +1083,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip delay={0} target="tooltip66535734">
@@ -1098,7 +1098,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1116,7 +1116,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1184,7 +1184,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/sketch.jpg")}
+                            src={require("../assets/img/theme/sketch.jpg")}
                           />
                         </a>
                         <Media>
@@ -1210,7 +1210,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1228,7 +1228,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1246,7 +1246,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1264,7 +1264,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1332,7 +1332,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/react.jpg")}
+                            src={require("../assets/img/theme/react.jpg")}
                           />
                         </a>
                         <Media>
@@ -1360,7 +1360,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1378,7 +1378,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1396,7 +1396,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1414,7 +1414,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1482,7 +1482,7 @@ function Tables() {
                         >
                           <img
                             alt="..."
-                            src={require("assets/img/theme/vue.jpg")}
+                            src={require("../assets/img/theme/vue.jpg")}
                           />
                         </a>
                         <Media>
@@ -1510,7 +1510,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-1-800x800.jpg")}
+                            src={require("../assets/img/theme/team-1-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1528,7 +1528,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-2-800x800.jpg")}
+                            src={require("../assets/img/theme/team-2-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1546,7 +1546,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-3-800x800.jpg")}
+                            src={require("../assets/img/theme/team-3-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
@@ -1564,7 +1564,7 @@ function Tables() {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("../assets/img/theme/team-4-800x800.jpg")}
                           />
                         </a>
                         <UncontrolledTooltip
