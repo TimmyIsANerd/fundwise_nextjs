@@ -128,7 +128,7 @@ function Sidebar(props) {
                 <span className="avatar avatar-sm rounded-circle">
                   <img
                     alt="..."
-                    src={require("assets/img/theme/team-1-800x800.jpg")}
+                    src={("assets/img/theme/team-1-800x800.jpg")}
                   />
                 </span>
               </Media>
